@@ -16,6 +16,10 @@
     "index-esm.js",
     "index-cjs.cjs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bundled-es-modules/tough-cookie"
+  },
   "license": "ISC",
   "dependencies": {
     "tough-cookie": "^4.1.4"
