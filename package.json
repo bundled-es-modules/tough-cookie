@@ -16,6 +16,7 @@
     "release": "release publish"
   },
   "files": [
+    "index.d.ts",
     "index-esm.js",
     "index-cjs.cjs"
   ],
