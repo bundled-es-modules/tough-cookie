@@ -26,6 +26,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@types/tough-cookie": "^4.0.5",
     "tough-cookie": "^4.1.4"
   },
   "devDependencies": {
