@@ -1,8 +1,10 @@
 {
+  "type": "module",
   "name": "@bundled-es-modules/tough-cookie",
   "version": "0.1.0",
   "description": "Mirror of tough-cookie, bundled and exposed as ES module",
   "main": "index-esm.js",
+  "typings": "./index.d.ts",
   "exports": {
     ".": {
       "import": "./index-esm.js",
