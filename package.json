@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "esbuild source.js --bundle --format=esm --outfile=index-esm.js",
-    "publish": "release publish"
+    "release": "release publish"
   },
   "files": [
     "index-esm.js",
