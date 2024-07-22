@@ -1,0 +1,26 @@
+{
+  "name": "@bundled-es-modules/tough-cookie",
+  "version": "1.0.0",
+  "description": "Mirror of tough-cookie, bundled and exposed as ES module",
+  "main": "index-esm.js",
+  "exports": {
+    ".": {
+      "import": "./index-esm.js",
+      "require": "./index-cjs.cjs"
+    }
+  },
+  "scripts": {
+    "build": "esbuild source.js --bundle --format=esm --outfile=index-esm.js"
+  },
+  "files": [
+    "index-esm.js",
+    "index-cjs.cjs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "tough-cookie": "^4.1.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  }
+}
