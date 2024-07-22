@@ -1,6 +1,6 @@
 {
   "name": "@bundled-es-modules/tough-cookie",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Mirror of tough-cookie, bundled and exposed as ES module",
   "main": "index-esm.js",
   "exports": {
