@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "build": "esbuild source.js --bundle --format=esm --outfile=index-esm.js",
+    "build": "esbuild source.js --bundle --format=esm --outfile=index-esm.js --platform=node",
     "release": "release publish"
   },
   "files": [
@@ -26,8 +26,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@types/tough-cookie": "^4.0.5",
-    "tough-cookie": "^4.1.4"
+    "tough-cookie": "^5.0.0"
   },
   "devDependencies": {
     "@ossjs/release": "^0.8.1",
